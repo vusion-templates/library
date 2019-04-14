@@ -2,7 +2,7 @@
   "name": "vusion-ui",
   "scripts": {
     "lint": "eslint --fix ./src/**/*.{js,vue}",
-    "precommit": "bash node_modules/vusion-hooks/pre-commit"
+    "precommit": "node node_modules/vusion-hooks/precommit"
   },
   "dependencies": {
     "proto-ui.vusion": "^0.4.0-alpha.4"
